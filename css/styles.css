@@ -1,0 +1,141 @@
+* {
+ box-sizing: border-box;
+ border:px solid red;
+}
+
+body {
+    margin:0;
+    min-height:0;
+    width:100%;
+    /*display:flex;
+    flex-direction:column;
+    justify-content:top;
+    text-align:center;*/
+    background:#1E1E1E;
+    /*background-image: url(3414987.jpg);*/
+    background-size:60%;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.main-nav {
+    background:#0A0A0A;
+    width:100%;
+    margin:0;
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+    justify-content:top;
+    text-align:center;
+}
+
+.footer {
+    background:#0A0A0A;
+    width:100%;
+    margin:0;
+    padding:1em;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    gap:1em;
+}
+
+.main-nav__list {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.main-nav__item {
+    margin:1em;
+}
+
+.main-nav__link {
+    color:white;
+    font-family: Verdana;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border:2px solid white;
+    background:#1E1E1E;
+    border-radius:.5em;
+    padding: .5em;
+    display:inline-block;
+    min-width:150px;
+}
+
+.main-nav__link:hover {
+    background:#997a8d;
+    color:white;
+    transition:.5s;
+}
+
+.main {
+    min-height:800px;
+    width:100%;
+    padding:1em;
+    margin:0 auto;
+}
+
+h1 {
+    font-size:3rem;
+    font-family: Verdana;
+    line-height: 1;
+    margin:0;
+    color:white;
+    text-shadow:5px 5px 5px #0A0A0A;
+}
+
+.header-day {
+    color:#997a8d;
+}
+
+.sub-title {
+    font-size:1.5rem;
+    font-family:arial;
+    font-style:italic;
+    margin:.4em;
+    color:white;
+    opacity:.8;
+    letter-spacing: 10px;
+}
+
+.section {
+    max-width:900px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.section__list {
+    color:white;
+    text-align: left;
+    font-size:1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section__list li::marker {
+    color:#997a8d;
+}
+
+.footer-text {
+    color:white;
+    font-family: Verdana;
+    font-size:.75rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+}
+
+.footer__icon {
+    height: 30px;
+
+}
+
+@media screen and (min-width: 500px) {
+    body {
+      background-color:;
+    }
+  }
